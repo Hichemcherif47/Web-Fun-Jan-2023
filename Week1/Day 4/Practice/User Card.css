@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    font-family: cursive;
+}
+.header{
+    background-color: #17a2b8;
+    border: solid  #17a2b8;
+    height: 80px;
+    width: 60%;
+    padding: 1%;
+
+}
+.informations{
+    border-left: solid #cfcfcf;
+    border-right: solid #cfcfcf;
+    border-bottom: solid #cfcfcf;
+    height: 340px;
+    width: 60%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding:1%;   
+}
+.profil{
+    height: 100px;
+    border-radius: 50%;
+    border: solid #cfcfcf;;
+    position: absolute;
+    bottom: 64%;
+    left: 23%;
+}
+.align{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+h1{
+    margin-top: 50px;
+}
+.icone{
+    height: 30%;
+    margin-right: 20px;
+}
+h1 , .align , p{
+    margin-left: 35px;
+}
