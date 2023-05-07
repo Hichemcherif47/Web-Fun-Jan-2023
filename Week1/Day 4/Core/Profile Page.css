@@ -1,0 +1,233 @@
+.page{
+    display: flex;
+    align-items: center;
+}
+.nav_bar{
+    height: 70px;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+li{
+    margin-right: 70px;
+}
+li a{
+    text-decoration: none;
+    color: #646464;
+    font-size: 100%;
+}
+.strong{
+    font-size: 120%;
+    font: bold;
+    color:white
+}
+.btn{
+    color: white;
+    background-color: #17a2b8;
+    border: #17a2b8;
+    height: 40%;
+    width: 10%;
+    font-family: cursive;
+    font-size: 110%;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;   
+}
+.headeruc{
+    height: 80px;
+    width: 570px; 
+    background-color: #17a2b8;
+    border: solid #17a2b8; 
+    margin-top: 30px;  
+}
+.img_jane{
+    height: 130%;
+    position: relative;
+    left: 50px;
+    top: 25px;
+    border-radius: 50%;
+    border: solid #646464;
+    padding: 2px;
+    background-color: white;  
+}
+.inforuc{
+    height: 210px;
+    width: 520px;
+    border-left: solid #cccccc;
+    border-right: solid #cccccc;
+    border-bottom: solid #cccccc;
+    padding-top: 40px;
+    padding-left: 50px;
+    font-family: cursive;
+    font-size: 90%;
+}
+.icone{
+    height: 20px;
+    margin-right: 20px;
+}
+.inforuc h1{
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+.education{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 30px;
+}
+.headeredu{
+    height: 40px;
+    width: 520px;
+    background-color: #333333;
+    border: solid #333333;
+    color: white;
+    font-family: cursive;
+    display: flex;
+    align-items: center; 
+    padding-left: 50px;
+}
+.inforedu{
+    height: 100px;
+    width: 520px;
+    border-left: solid #cccccc;
+    border-right: solid #cccccc;
+    font-size: 60%;
+    font-family: cursive;
+    padding-left: 50px;
+}
+.date{
+    color: #666666;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px; 
+   
+}
+.headercon{
+    height: 40px;
+    width: 315px;
+    background-color: #333333;
+    border: solid #333333;
+    color: white;
+    font-family: cursive;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 10px
+}
+.nbrcon{
+    height: 30px;
+    width: 30px;
+    background-color: #cccccc ;
+    color: #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+.perscon{
+    height: 125px;
+    width: 310px;
+    border-left: solid #cccccc;
+    border-right: solid #cccccc;
+    border-bottom: solid #cccccc;
+    font-family: cursive;
+    display: flex;
+    /* align-items:baseline; */
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.imgcir{
+    border: solid black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px;
+    height: 30px;
+    margin-left: 7px;
+}
+.pers1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pers1 p{
+    margin-right: 60px;
+}
+.headeryou{
+    height: 40px;
+    width: 315px;
+    background-color: #333333;
+    border: solid #333333;
+    color: white;
+    font-family: cursive;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 10px
+
+}
+.persyou{
+    height: 180px;
+    width: 320px;
+    border-left: solid #cccccc;
+    border-right: solid #cccccc;
+    border-bottom: solid #cccccc;
+    font-family: cursive;
+    display: flex;
+    align-items:baseline;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+.nbryou{
+    height: 30px;
+    width: 60px;
+    background-color: #cccccc ;
+    color: #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+.persyou1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.persyou1 p{
+    margin-left: 30px;
+}
+.footeryou{
+    height: 40px;
+    width: 310px;
+    border-left: solid #cccccc;
+    border-right: solid #cccccc;
+    border-bottom: solid #cccccc;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    
+}
