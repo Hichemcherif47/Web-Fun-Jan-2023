@@ -1,4 +1,4 @@
-var inverse="";
+var inverse;
 function reverse(arr){
     var start=0;
     while (start<arr.length-start){
