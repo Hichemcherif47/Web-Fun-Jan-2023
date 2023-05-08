@@ -1,0 +1,96 @@
+.nav_bar{
+    font-family: cursive;
+    background-color: #cccccc;
+    width: 70%;
+    height: 5%;
+    margin-left: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.site{
+    font-size: 300%;
+    margin: 1%;
+}
+.search{
+    height: 30px;
+    width: 40%;
+    border: solid black;
+    font-family: cursive;
+    color: #b0b0b0;
+}
+.btn{
+    height: 30px;
+    width: 10%;
+    background-color: #2b78e4;
+    color: white;
+    border: solid black;
+    box-shadow: 5px 5px 5px black;
+
+}
+.container{
+    display: flex;
+    align-items:start;
+    justify-content: space-between;
+    
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14%;
+    
+}
+
+.Pract{
+    height: 220px;
+    width: 220%;
+    border: solid black;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.child1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+.child1 h1,.child1 h2{
+    margin: 2%;  
+}
+.btn2{
+    height: 30px;
+    width: 90%;
+    background-color: #ffd966;
+    border: solid black;
+    box-shadow: 5px 5px 5px black;
+}
+.Pract p{
+    margin-right: 10%;
+}
+.column2{
+    height: 180px;
+    width: 300px;
+    border: solid black;
+    margin-top: 20px;
+    font-family: cursive;
+    margin-right: 12%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.btn3{
+    height: 40px;
+    width: 150px;
+    background-color: #93c47d;
+    border: solid black;
+    box-shadow: 5px 5px 5px black;
+    font-family: cursive;
+    margin-bottom: 6%;
+}
