@@ -1,0 +1,91 @@
+.container{
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    margin:0%;
+}
+.navbar{
+    height: 60px;
+    width: 80%;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.navbar h1{
+    margin-left: 10px;
+}
+.page{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 60px;
+    
+}
+.column1{
+    height: 350px;
+    width: 200px;
+    border: solid black;
+    font-family: cursive;
+    margin-top: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.column1 h1{
+    margin-bottom: 30px;
+}
+.column2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+}
+.user{
+    height: 110px;
+    width: 750px;
+    border: solid black;
+    font-family: cursive;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.child{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.name h3{
+    margin:0%
+}
+.name h2{
+    margin-top: 0%;
+}
+.btn{
+    height: 50%;
+    width: 100px;
+    font-size: larger;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: cursive;
+    background-color: #ffd966;
+    border: solid black;
+    box-shadow: 5px 5px 5px black;
+}
+#adjust{
+    margin-left: 40px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}

@@ -1,0 +1,31 @@
+.user{
+    height: 180px;
+    width: 560px;
+    border: solid black;
+    font-family: cursive;
+    padding: 20px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+}
+.name h2{
+    margin-left: 120px;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    font-size: larger;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: cursive;
+    background-color: #ffd966;
+    border: solid black;
+    box-shadow: 5px 5px 5px black;
+}
